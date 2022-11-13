@@ -1,0 +1,294 @@
+/* cambio de tamaños y fuentes responsive */
+@media (min-width: 350px) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: 13px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: 250px;
+      height: 140px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: 83px;
+      height: 83px;
+    }
+  
+    /* tamaño texto de las imagenes pagina empresas */
+  
+    .nEmpresa {
+      font-size: 7px;
+      top: 65px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina rutas */
+  
+    .rutas {
+      width: 83px;
+      height: 83px;
+    }
+  
+    /* tamaño texto de las imagenes pagina rutas */
+  
+    .nRuta {
+      font-size: 10px;
+      top: 70px;
+    }
+  
+    /* tamaño contenedor imagen del index */
+  
+    .imgUno {
+      width: 233px;
+      height: 150px;
+    }
+  
+    /* tamaño texto de los parrafos */
+  
+    p {
+      font-size: 15px;
+      padding: 40px;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: 40px;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: 40px;
+      font-size: 10px;
+      width: 40px;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: 20px;
+      width: 534px;
+      height: 600px;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: 20px;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: 50px;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: 23px;
+      width: 23px;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: 26px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: 500px;
+      height: 280px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: 166px;
+      height: 166px;
+    }
+  
+    /* tamaño del texto de imagenes de la pagina empresas */
+  
+    .nEmpresa {
+      font-size: 14px;
+      top: 130px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina rutas */
+  
+    .rutas {
+      width: 166px;
+      height: 166px;
+    }
+  
+    /* tamaño texto de las imagenes pagina rutas */
+  
+    .nRuta {
+      font-size: 20px;
+      top: 140px;
+    }
+  
+    /* tamaño contenedor imagen del index */
+  
+    .imgUno {
+      width: 466px;
+      height: 300px;
+    }
+  
+    /* tamaño texto de los parrafos */
+  
+    p {
+      font-size: 20px;
+      padding: 40px;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: 40px;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: 40px;
+      font-size: 10px;
+      width: 40px;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: 20px;
+      width: 534px;
+      height: 600px;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: 20px;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: 50px;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: 23px;
+      width: 23px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* separacion titulo principal */
+  
+    h1 {
+      padding: 40px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina aviones */
+  
+    .aviones {
+      width: 750px;
+      height: 420px;
+    }
+  
+    /* tamaño contenedor de imagenes de la pagina empresas */
+  
+    .empresas {
+      width: 250px;
+      height: 250px;
+    }
+  
+    /* tamaño del texto de imagenes de la pagina empresas */
+  
+    .nEmpresa {
+      font-size: 20px;
+      top: 220px;
+    }
+  
+    /* tamaño imagenes de rutas */
+  
+    .rutas {
+      width: 250px;
+      height: 250px;
+    }
+  
+    /* tamaño nombre de las rutas */
+  
+    .nRuta {
+      font-size: 30px;
+      top: 210px;
+    }
+  
+    /* tamaño imagen del index */
+  
+    .imgUno {
+      width: 700px;
+      height: 450px;
+    }
+  
+    /* tamaño parrafos */
+  
+    p {
+      font-size: 30px;
+      padding: 40px;
+    }
+  
+    /* tamaño texto de los titulos */
+  
+    .aHijo {
+      font-size: 60px;
+    }
+  
+    /* tamaño texto y contenedor del boton subir */
+  
+    .boton {
+      height: 60px;
+      font-size: 18px;
+      width: 60px;
+    }
+  
+    /* tamaño texto y contenedor del formulario */
+  
+    .formUno {
+      font-size: 30px;
+      width: 800px;
+      height: 700px;
+    }
+  
+    /* tamaño del texto del pie de pagina */
+  
+    .footer-text {
+      font-size: 30px;
+    }
+  
+    /* agregando separacion al contenido principal de las paginas */
+  
+    main {
+      padding: 50px;
+    }
+  
+    /* tamaño de los iconos de redes sociales pie de pagina */
+  
+    .footerIcon {
+      height: 34px;
+      width: 34px;
+    }
+  }

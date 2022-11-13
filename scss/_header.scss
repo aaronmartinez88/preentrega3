@@ -1,0 +1,76 @@
+ /* estableciendo tamaño del header */
+
+ header {
+    height: 70px;
+  }
+
+  /* color titulo principal y fuente */
+
+  .aHijo {
+    font-family: donnabold;
+    color: white;
+  }
+
+  /* citando ubicacion de nueva fuente para el titulo */
+  @font-face {
+    font-family: donnabold;
+    src: url(../font/Donnabold\ Regular.ttf);
+  }
+
+  @font-face {
+    font-family: summer;
+    src: url(../font/SF_Arch_Rival.ttf);
+  }
+
+  /* quitando linea subrayada y dando color a las palabras del menu*/
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* color y fuente menu responsive */
+
+  .nav-link {
+    color: white;
+    font-family: summer;
+
+    &:hover {
+      animation-name: menuAnimado;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      color: #B04183;
+    }
+  }
+
+  /* animacion menu responsive */
+
+  /* caracteristicas del texto del menu y color del fondo */
+
+  nav {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(79, 134, 198);
+  }
+
+  /* eliminando viñetas */
+
+  li {
+    list-style-type: none;
+  }
+
+  /* animacion de items del menu */
+  @keyframes menuAnimado {
+    0% {
+      transform: scale(1.1, 1.1);
+    }
+
+    100% {
+      transform: scale(1.2, 1.2);
+    }
+
+     
+  }
