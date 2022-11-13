@@ -37,11 +37,79 @@
   }
   
   .imgItem {
-    background-image: url(../img/aviona.jpg);
+    animation-name: imagenesIndex;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* animacion imagenes pagina principal */
+@keyframes imagenesIndex {
+  0% {
+    background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
     background-size: cover;
     background-position: center;
   }
-  
+  9% {
+    background-image: url(../img/coliseo-roma-italia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  18% {
+    background-image: url(../img/cristo-redentor-rio-de-janeiro-brasil.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  27% {
+    background-image: url(../img/gran-palacio-de-bangkok-tailandia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  36% {
+    background-image: url(../img/gran-piramide-de-guiza-egipto.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  45% {
+    background-image: url(../img/gyeongbokgung-seul-corea-del-sur.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  54% {
+    background-image: url(../img/kilimanjaro-tanzania.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  63% {
+    background-image: url(../img/monte-fuji-japon.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  72% {
+    background-image: url(../img/opera-de-sidney-australia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  79% {
+    background-image: url(../img/santa-sofia-estambul-turquia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  86% {
+    background-image: url(../img/templo-expiatorio-de-la-sagrada-familia-barcelona-espana.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  93% {
+    background-image: url(../img/torre-de-pisa-italia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  100% {
+    background-image: url(../img/machu-picchu-peru.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
   /* posicionamiento titulo principal resto de las paginas con flexbox*/
   
   .aFlex {
