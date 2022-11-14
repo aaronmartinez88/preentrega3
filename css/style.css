@@ -1,4 +1,21 @@
 @charset "UTF-8";
+/* vistas responsive*/
+/* padding titulo principal */
+/* tamaño contenedor de imagenes de la pagina index */
+/* tamaño contenedor de imagenes de la pagina aviones */
+/* tamaño contenedor de imagenes de la pagina rutas y empresas */
+/* tamaño texto de las imagenes pagina empresas */
+/* alineacion texto de las imagenes pagina empresas */
+/* tamaño texto de las imagenes pagina rutas */
+/* alineacion texto de las imagenes pagina rutas */
+/* tamaño texto de los parrafos */
+/* alineacion texto de los parrafos */
+/* tamaño texto de los titulos */
+/* tamaño texto y contenedor del boton subir */
+/* tamaño texto y contenedor del formulario */
+/* tamaño del texto del pie de pagina */
+/* padding contenido principal de las paginas */
+/* tamaño de los iconos de redes sociales pie de pagina */
 /* estableciendo tamaño del header */
 header {
   height: 70px;
@@ -100,17 +117,18 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-/* posicionamiento de la imagen del index */
+/* color y grosor del borde de la imagen del index */
 .imgUno {
   border-radius: 8px;
   border: 1px solid white;
 }
 
+/* duracion y caracteristicas animacion imagenes index*/
 .imgItem {
   animation-name: imagenesIndex;
   animation-duration: 13s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  animation-timing-function: cubic-bezier(0.2, -2, 0.8, 2);
 }
 
 /* animacion imagenes pagina principal */
@@ -214,11 +232,23 @@ p {
   background-image: url(../img/747a.jpg);
   background-size: cover;
 }
+.avionUno:hover {
+  animation-name: imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
 
 /* caracteristicas de imagen de avion */
 .avionDos {
   background-image: url(../img/boeing-777.jpeg);
   background-size: cover;
+}
+.avionDos:hover {
+  animation-name: imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
 /* caracteristicas de imagen de avion */
@@ -226,17 +256,35 @@ p {
   background-image: url(../img/737max.jpeg);
   background-size: cover;
 }
+.avionTres:hover {
+  animation-name: imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
 
 /* caracteristicas de imagen de avion */
 .avionCuatro {
   background-image: url(../img/boeing-b787-dreamliner.jpeg);
   background-size: cover;
 }
+.avionCuatro:hover {
+  animation-name: imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
 
 /* caracteristicas de imagen de avion */
 .avionCinco {
   background-image: url(../img/boeing-757.jpeg);
   background-size: cover;
+}
+.avionCinco:hover {
+  animation-name: imagenes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
 /* caracteristicas de la caja de cada imagen de ruta, borde, */
@@ -365,7 +413,15 @@ p {
   animation-timing-function: ease-in;
 }
 
-/* animacion imagen */
+/* animacion imagenes */
+@keyframes imagenes {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
 /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
 .eTres {
   background-image: url(../img/americanairlines.jpg);
@@ -470,15 +526,6 @@ footer, section {
     transform: rotateY(3rad);
   }
 }
-/* animacion imagenes */
-@keyframes imagenes {
-  0% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
 /* cambio de tamaños y fuentes responsive */
 @media (min-width: 350px) {
   /* separacion titulo principal */
@@ -492,28 +539,28 @@ footer, section {
   }
   /* tamaño contenedor de imagenes de la pagina empresas */
   .empresas {
-    width: 83px;
-    height: 83px;
+    width: 125px;
+    height: 125px;
   }
   /* tamaño texto de las imagenes pagina empresas */
   .nEmpresa {
-    font-size: 7px;
-    top: 65px;
+    font-size: 11px;
+    top: 98px;
   }
   /* tamaño contenedor de imagenes de la pagina rutas */
   .rutas {
-    width: 83px;
-    height: 83px;
+    width: 125px;
+    height: 125px;
   }
   /* tamaño texto de las imagenes pagina rutas */
   .nRuta {
-    font-size: 10px;
-    top: 70px;
+    font-size: 15px;
+    top: 105px;
   }
   /* tamaño contenedor imagen del index */
   .imgUno {
-    width: 233px;
-    height: 150px;
+    width: 350px;
+    height: 225px;
   }
   /* tamaño texto de los parrafos */
   p {
@@ -546,8 +593,8 @@ footer, section {
   }
   /* tamaño de los iconos de redes sociales pie de pagina */
   .footerIcon {
-    height: 23px;
-    width: 23px;
+    height: cont-width-height-icon1;
+    width: cont-width-height-icon1;
   }
 }
 @media (min-width: 601px) {
@@ -603,8 +650,8 @@ footer, section {
   /* tamaño texto y contenedor del formulario */
   .formUno {
     font-size: 20px;
-    width: 534px;
-    height: 600px;
+    width: 800px;
+    height: 700px;
   }
   /* tamaño del texto del pie de pagina */
   .footer-text {
