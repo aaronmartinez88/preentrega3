@@ -126,7 +126,7 @@ h1 {
 /* duracion y caracteristicas animacion imagenes index*/
 .imgItem {
   animation-name: imagenesIndex;
-  animation-duration: 8s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
   transition: transform ease-in;
   animation-delay: 0.1s;
