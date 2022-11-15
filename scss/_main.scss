@@ -43,8 +43,7 @@
     animation-name: imagenesIndex;
     animation-duration: 50s;
     animation-iteration-count: infinite;
-    transition: transform ease-in;
-    animation-delay: .1s;
+    
     
     
   }
@@ -57,7 +56,8 @@
     background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
+    
     
   }
   
@@ -66,7 +66,7 @@
   background-image: url(../img/machu-picchu-peru.jpg);
   background-size: cover;
   background-position: center;
-  transition: transform ease-in;
+  
   }
   
   16% {
@@ -74,7 +74,7 @@
     background-image: url(../img/coliseo-roma-italia.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
  
   23% {
@@ -82,7 +82,7 @@
     background-image: url(../img/cristo-redentor-rio-de-janeiro-brasil.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
   
   30% {
@@ -90,7 +90,7 @@
     background-image: url(../img/gran-palacio-de-bangkok-tailandia.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
  
   37% {
@@ -98,7 +98,7 @@
     background-image: url(../img/gran-piramide-de-guiza-egipto.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+   
   }
  
   44% {
@@ -106,7 +106,7 @@
     background-image: url(../img/gyeongbokgung-seul-corea-del-sur.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
 
   51% {
@@ -114,7 +114,7 @@
     background-image: url(../img/kilimanjaro-tanzania.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+   
   }
   
   58% {
@@ -122,7 +122,7 @@
     background-image: url(../img/monte-fuji-japon.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
   
   65% {
@@ -130,7 +130,7 @@
     background-image: url(../img/opera-de-sidney-australia.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
 
   72% {
@@ -138,7 +138,7 @@
     background-image: url(../img/santa-sofia-estambul-turquia.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+   
   }
  
   79% {
@@ -146,14 +146,14 @@
     background-image: url(../img/templo-expiatorio-de-la-sagrada-familia-barcelona-espana.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
  
   86% {
     background-image: url(../img/torre-de-pisa-italia.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
 
   93% {
@@ -161,14 +161,14 @@
     background-image: url(../img/monte-everest-nepal-y-china.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
   100% {
   
     background-image: url(../img/cataratas-de-iguazu-argentina-y-brasil.jpg);
     background-size: cover;
     background-position: center;
-    transition: transform ease-in;
+    
   }
  
 }
